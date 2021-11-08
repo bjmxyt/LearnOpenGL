@@ -161,12 +161,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HeaderFiles\Camera.h" />
     <ClInclude Include="HeaderFiles\Shader.h" />
     <ClInclude Include="HeaderFiles\stb_image.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="3.3.shader.fs" />
-    <None Include="3.3.shader.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\wall.jpg" />
