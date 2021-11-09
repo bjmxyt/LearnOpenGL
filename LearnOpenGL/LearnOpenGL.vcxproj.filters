@@ -51,6 +51,9 @@
     <ClCompile Include="CppFiles\imgui_impl_opengl3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HeaderFiles\Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Shader.h">
@@ -92,6 +95,12 @@
     <ClInclude Include="HeaderFiles\imgui_impl_opengl3_loader.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HeaderFiles\Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\wall.jpg">
@@ -113,5 +122,9 @@
   <ItemGroup>
     <None Include="Shader\FragmentShader.fs" />
     <None Include="Shader\VertexShader.vs" />
+    <None Include="Shader\LightCubeShader.fs" />
+    <None Include="Shader\LightCubeShader.vs" />
+    <None Include="Shader\LightingShader.fs" />
+    <None Include="Shader\LightingShader.vs" />
   </ItemGroup>
 </Project>
