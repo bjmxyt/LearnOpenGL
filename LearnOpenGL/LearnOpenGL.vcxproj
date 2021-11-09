@@ -155,6 +155,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CppFiles\imgui.cpp" />
+    <ClCompile Include="CppFiles\imgui_demo.cpp" />
+    <ClCompile Include="CppFiles\imgui_draw.cpp" />
+    <ClCompile Include="CppFiles\imgui_impl_glfw.cpp" />
+    <ClCompile Include="CppFiles\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="CppFiles\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="CppFiles\imgui_tables.cpp" />
+    <ClCompile Include="CppFiles\imgui_widgets.cpp" />
     <ClCompile Include="CppFiles\Shader.cpp" />
     <ClCompile Include="CppFiles\stb_image.cpp" />
     <ClCompile Include="C_File\glad.c" />
@@ -162,11 +170,29 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Camera.h" />
+    <ClInclude Include="HeaderFiles\imconfig.h" />
+    <ClInclude Include="HeaderFiles\imgui.h" />
+    <ClInclude Include="HeaderFiles\imgui_impl_glfw.h" />
+    <ClInclude Include="HeaderFiles\imgui_impl_opengl2.h" />
+    <ClInclude Include="HeaderFiles\imgui_impl_opengl3.h" />
+    <ClInclude Include="HeaderFiles\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="HeaderFiles\imgui_internal.h" />
+    <ClInclude Include="HeaderFiles\imstb_rectpack.h" />
+    <ClInclude Include="HeaderFiles\imstb_textedit.h" />
+    <ClInclude Include="HeaderFiles\imstb_truetype.h" />
     <ClInclude Include="HeaderFiles\Shader.h" />
     <ClInclude Include="HeaderFiles\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Resources\awesomeface.png" />
+    <Image Include="Resources\container.jpg" />
+    <Image Include="Resources\container2.png" />
+    <Image Include="Resources\container2_specular.png" />
     <Image Include="Resources\wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\FragmentShader.fs" />
+    <None Include="Shader\VertexShader.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
