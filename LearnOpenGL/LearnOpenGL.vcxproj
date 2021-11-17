@@ -165,9 +165,11 @@
     <ClCompile Include="CppFiles\imgui_widgets.cpp" />
     <ClCompile Include="CppFiles\Shader.cpp" />
     <ClCompile Include="CppFiles\stb_image.cpp" />
+    <ClCompile Include="CubeMap.cpp" />
     <ClCompile Include="C_File\glad.c" />
     <ClCompile Include="HeaderFiles\Mesh.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NanoSuitDemo.cpp" />
+    <ClCompile Include="FrameBufferDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Camera.h" />
@@ -191,9 +193,14 @@
     <Image Include="Resources\container.jpg" />
     <Image Include="Resources\container2.png" />
     <Image Include="Resources\container2_specular.png" />
+    <Image Include="Resources\grass.png" />
+    <Image Include="Resources\marble.jpg" />
+    <Image Include="Resources\metal.png" />
     <Image Include="Resources\wall.jpg" />
+    <Image Include="Resources\window.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="imgui.ini" />
     <None Include="Shader\FragmentShader.fs" />
     <None Include="Shader\LightCubeShader.fs" />
     <None Include="Shader\LightCubeShader.vs" />
