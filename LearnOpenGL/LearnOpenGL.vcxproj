@@ -155,6 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="CppFiles\imgui.cpp" />
     <ClCompile Include="CppFiles\imgui_demo.cpp" />
     <ClCompile Include="CppFiles\imgui_draw.cpp" />

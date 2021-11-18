@@ -60,6 +60,9 @@
     <ClCompile Include="CubeMap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Asteroids.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Shader.h">
