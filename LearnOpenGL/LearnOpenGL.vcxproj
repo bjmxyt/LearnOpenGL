@@ -171,6 +171,7 @@
     <ClCompile Include="HeaderFiles\Mesh.cpp" />
     <ClCompile Include="NanoSuitDemo.cpp" />
     <ClCompile Include="FrameBufferDemo.cpp" />
+    <ClCompile Include="ShadowMapping.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Camera.h" />
