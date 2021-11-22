@@ -175,7 +175,7 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         static float angle = 0.0f;
-        angle += deltaTime;
+        //angle += deltaTime;
 
         glm::vec4 lightPosOrigin(-2.0f, 2.5f, -1.0f, 1.0f);
         glm::vec3 lightPos(-5.0f, 4.0f, -1.0f);
@@ -219,14 +219,12 @@ int main()
         shader.setVec3("viewPos", camera.Position);
         shader.setVec3("lightPos", lightPos);
         shader.setMat4("lightSpaceMatrix", lightSpaceMatrix);
-        static float filtersize = 30.0f;
-        shader.setInt("FilterSize", int(filtersize));
 
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, woodTexture);
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, depthMap);
-        renderScene(shader, nanoSuit);
+        renderScene(shader, nanoSuit);  
 
         //render light object
         LightObjectShader.use();
